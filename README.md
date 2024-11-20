@@ -23,4 +23,7 @@ Na parte de comunicação com o MQTT, utilizei o broker test.mosquitto.org apont
 - irrigador/controle: Tópico para controle do sistema, onde é possível enviar comandos como "ligar" ou "desligar" para controlar manualmente a bomba de água.
 - irrigador/status: Tópico onde o ESP8266 publica mensagens de status após receber comandos, indicando ações como "Relé acionado manualmente" ou "Relé desligado manualmente".
 
-
+Referências
+- Repositório do Projeto: GitHub - IrrigaFácil
+- Vídeo de Demonstração: [YouTube - IrrigaFácil em Ação](https://youtu.be/_imMiZyLVVk)
+- Broker MQTT Público: Mosquitto Test Server
